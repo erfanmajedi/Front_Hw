@@ -1,0 +1,1131 @@
+@keyframes slideInFromLeft{
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+
+
+.grid_container {
+    display: grid;
+    width: calc(100%);
+    background-color: white;
+    /* padding: 10px; */
+}
+
+.anchor-nav2{
+    position: absolute;
+    font-size: 1em;
+    padding: 10px;
+    color: black;
+    right: calc(32%);
+    bottom: calc(40%);
+    background-color: white;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.anchor-nav2:hover {
+    color: rgb(231, 231, 231);
+}
+
+
+.overlay-menu {
+    position: absolute;
+    height: 3699.35px;
+    width: 476px;
+    top: 0;
+    bottom: 0;
+    left: -1798px;
+    right: 0;
+    visibility: hidden;
+    opacity: 1;
+}
+.overlay-menu:target {
+    visibility: visible;
+    opacity: 1;
+}
+  
+.popup4 {
+    position: absolute;
+    margin: 70px auto;
+    background-image: linear-gradient(to right, rgb(165, 86, 240), rgb(75, 75, 247));
+    width: 400%;
+    height: 100%;
+    margin-top:-316%;
+   
+}
+  
+
+.popup4 #close-menu {
+    position: absolute;
+    top: 9px;
+    left: 16px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    opacity: 0.5;
+}
+
+#menu-button{
+    position: sticky;
+    color: white;
+    text-align: center;
+    left: 49.7%;
+    top: 400px;
+}
+
+#menu-button:hover{
+    color: black;
+}
+
+#menu-button1{
+    position: sticky;
+    color: white;
+    text-align: center;
+    left: 47%;
+    top: 450px;
+}
+
+#menu-button1:hover{
+    color: black;
+}
+
+
+#menu-button2{
+    position: sticky;
+    color: white;
+    text-align: center;
+    left: 47.6%;
+    top: 500px;
+}
+
+#menu-button2:hover{
+    color: black;
+}
+
+
+
+.popup4 #menu-nav2{
+    position: sticky;
+    background-color: white;
+    top: 30px;
+    left: 1825px;
+}
+
+
+
+/* .navbar {
+    overflow: hidden;
+    background-image: linear-gradient(to right, rgb(153, 84, 218), rgb(78, 78, 245));
+    position: fixed;
+    top: 0;
+    width: 99.2%;
+    height: 100%;
+    animation: showMe 4s forwards;
+}
+  
+.navbar a {
+    display: block;
+    position: relative;
+    color: #f2f2f2;
+    width: 10%;
+    left: 45%;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    top: 35%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+   
+
+}
+  
+.navbar a:hover {
+    color: black;
+}
+
+#menu-cross{
+    position: relative;
+    background-color: white;
+    top:30px;
+    width: 50px;
+    height: 50px;
+    left:95.5%;
+    border-radius: 100%;
+}
+
+#anchor-cross{
+    position: absolute;
+    color: black;
+    left:3.5px;
+    top: -2px;
+} */
+
+img{
+    border:1px solid white;
+    width:calc(100%);
+    height: calc(60%);
+    background-position: center;
+}
+
+#menu-nav{
+    position: relative;
+    background-color: white;
+    width:50px;
+    height:50px;
+    border-radius: 100%;
+    left:95%;
+    top: calc(-3650px);
+    box-shadow: grey;
+}
+
+#anchor-nav{
+    position: relative;
+    left:21px;
+    top: 16px;
+}
+
+#anchor-nav:target {
+    visibility: visible;
+}
+
+
+
+#menu-nav1{
+    position: absolute;
+    background-color: white;
+    width:50px;
+    height:50px;
+    border-radius: 100%;
+    left:95%;
+    top: 500px;
+    box-shadow: grey;
+}
+
+#anchor-nav1{
+    position: relative;
+    width: 100px;
+    height: 50px;
+    left:20.5px;
+    top: 16px;
+}
+
+#menu-nav2{
+    position: absolute;
+    background-color: white;
+    width:50px;
+    height:50px;
+    border-radius: 100%;
+    left:95%;
+    top: 1500px;
+    box-shadow: grey;
+}
+
+#anchor-nav2{
+    position: relative;
+    width: 100px;
+    height: 50px;
+    left:20.5px;
+    top: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#nav_button{
+    position: absolute;
+    width: calc(100%);
+    height: 100%;
+    background-color: black;
+}
+
+#welcome_message{
+    width: 50%;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+    /* font-weight: bold; */
+    /* margin-right: 100px; */
+    text-align: center;
+    top: calc(-490px);
+    left: 25%;
+    color: white;
+    word-spacing: 10px;
+    font-size: 55px;
+}
+
+#course_message{
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    top: calc(-530px);
+    color: white;
+    word-spacing: 30px;
+    font-size: 30px;
+}
+
+.button{
+    position: relative;
+    top:calc(-520px);
+    width: calc(20%);
+    left: calc(40%);
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:1px solid grey;
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+    transition: background-color 2s ease-out 100ms
+}
+
+.button:hover{
+    background-color: blanchedalmond;
+}
+#grid_item {
+    /* background-color:rgb(66, 66, 248); */
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    /* padding: 20px; */
+    font-size: 20px;
+    height: calc(750px);
+    margin-bottom: calc(15%);
+}
+
+.a_button{
+    position: absolute;
+    font-size: 1em;
+    padding: 10px;
+    color: black;
+    right: calc(32%);
+    bottom: calc(40%);
+    background-color: white;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.a_button:hover {
+    background: rgb(231, 231, 231);
+}
+
+
+.overlay {
+    position: absolute;
+    top: 25px;
+    bottom:0;
+    left: 0;
+    right: 0;
+    transition: opacity 1ms;
+    visibility: hidden;
+    opacity: 1;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+  
+.popup {
+    position: absolute;
+    margin: 70px auto;
+    background: white;
+    border-radius: 5px;
+    width: 380%;
+    height: 92%;
+    left: 60%;
+    top: -10%;
+    transition: all 5s ease-in-out;
+}
+  
+.popup #book1-1 {
+    position: absolute;
+    width: 400px;
+    height: 489px;
+    right: 420px;
+    top: -277px;
+}
+
+.popup #close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: transform 0.001;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+
+.popup #close:hover {
+    color: black;
+}
+
+#title_book {
+    position: relative;
+    left:32%;
+    color: blue;
+    width:500px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3{
+    position: relative;
+    top:10px;
+    left: 14.8%;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#jsbook_description1{
+    position: relative;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 3%;
+    line-height: 2;
+    opacity: 0.5;
+}
+
+
+#jsbook_description2{
+    position: absolute;
+    right:-780px;
+    bottom: 63px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 3%;
+    line-height: 2;
+    opacity: 0.5;
+}
+
+.buy_button1{
+    position: relative;
+    background-color: rgb(60, 97, 219);
+    width:120px;
+    height: 40px;
+    left:480px;
+    border-radius: 20px;
+}
+
+#buy_now{
+    position: relative;
+    text-align: center;
+    color: white;
+    top:9px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left:2px;
+}
+
+.b_button{
+    position: absolute;
+    font-size: 1em;
+    padding: 10px;
+    color: black;
+    right: calc(32%);
+    bottom: calc(40%);
+    background-color: white;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.b_button:hover {
+    background: rgb(231, 231, 231);
+}
+
+
+/* .overlay {
+    position: absolute;
+    top: 25px;
+    bottom:0;
+    left: 0;
+    right: 0;
+    transition: opacity 10s;
+    visibility: hidden;
+    opacity: 1;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+} */
+  
+.popup1 {
+    position: absolute;
+    margin: 70px auto;
+    background: white;
+    border-radius: 5px;
+    width: 380%;
+    height: 92%;
+    right: -120%;
+    top: -10%;
+    transition: all 5s ease-in-out;
+}
+  
+.popup1 #book2-1 {
+    position: absolute;
+    width: 400px;
+    height: 480px;
+    right: 466px;
+    top: -276px;
+}
+
+.popup1 #close1 {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: transform 10s;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+
+.popup1 #close1:hover {
+    color: black;
+}
+
+#title_book1 {
+    position: relative;
+    left:32%;
+    color: blue;
+    width:500px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#h3-react{
+    position: relative;
+    top:10px;
+    left: 12.7%;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#reactbook_description1{
+    position: relative;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 2.5%;
+    line-height: 2;
+    opacity: 0.5;
+}
+
+
+#reactbook_description2{
+    position: absolute;
+    right:-780px;
+    bottom: 253px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 4%;
+    line-height: 2;
+    opacity: 0.5;
+}
+
+.buy_button2{
+    position: relative;
+    background-color: rgb(60, 97, 219);
+    width:120px;
+    height: 40px;
+    left:480px;
+    border-radius: 20px;
+}
+
+
+.c_button{
+    position: absolute;
+    font-size: 1em;
+    padding: 10px;
+    color: black;
+    right: calc(32%);
+    bottom: calc(40%);
+    background-color: white;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.c_button:hover {
+    background: rgb(231, 231, 231);
+}
+
+/* 
+.overlay {
+    position: absolute;
+    top: 25px;
+    bottom:0;
+    left: 0;
+    right: 0;
+    transition: opacity 10s;
+    visibility: hidden;
+    opacity: 1;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+} */
+  
+.popup2 {
+    position: absolute;
+    margin: 70px auto;
+    background: white;
+    border-radius: 5px;
+    width: 380%;
+    height: 92%;
+    right: 50%;
+    top: -10%;
+    transition: all 5s ease-in-out;
+}
+  
+.popup2 #book3-1 {
+    position: absolute;
+    width: 400px;
+    height: 480px;
+    right: 480px;
+    top: -276px;
+}
+
+.popup2 #close2 {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: transform 10s;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+
+.popup2 #close2:hover {
+    color: black;
+}
+
+#title_book2 {
+    position: relative;
+    left:20.5%;
+    color: blue;
+    width:500px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#h3-go{
+    position: relative;
+    top:10px;
+    left: 4.7%;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#gobook_description1{
+    position: relative;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: -5%;
+    line-height: 2;
+    opacity: 0.5;
+}
+
+
+#gobook_description2{
+    position: absolute;
+    right:-780px;
+    bottom: 157px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: -5%;
+    line-height: 2;
+    opacity: 0.5;
+}
+
+.buy_button3{
+    position: relative;
+    background-color: rgb(60, 97, 219);
+    width:120px;
+    height: 40px;
+    left:350px;
+    border-radius: 20px;
+}
+
+
+/* #buy_now{
+    position: relative;
+    text-align: center;
+    color: white;
+    top:9px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left:2px;
+} */
+
+#lecture_background{
+    position:relative;
+    border:1px solid white;
+    bottom: calc(41%);
+    width:calc(100%);
+    height: calc(70%);
+    background-position: center;
+}
+
+.layer{
+    background-image:linear-gradient(to bottom right,purple, blue, green);
+    position: absolute;
+    width: calc(99%);
+    height: calc(105%);
+    top: calc(49.5%);
+    opacity: 0.4;
+}
+
+#http_icon{
+    position: relative;
+    width: calc(40%);
+    left: calc(30%);
+    margin-top: calc(2%);
+    opacity: 0.5;
+}
+
+#css_icon{
+    position: relative;
+    width: calc(30%);
+    left: calc(35%);
+    margin-top: calc(2%);
+    opacity: 0.5;
+}
+
+#js_icon{
+    position: relative;
+    width: calc(50%);
+    left: calc(23%);
+    margin-bottom: calc(-6%);
+    opacity: 0.5;
+}
+
+#go_icon{
+    position: relative;
+    width: calc(50%);
+    left: calc(23%);
+    margin-top: calc(1%);
+    /* margin-bottom: calc(-3%); */
+    opacity: 0.5;
+}
+
+#course_name{
+    text-align: center;
+    margin-top: 2%;
+    color: rgb(153, 153, 153);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#course_description1{
+    text-align: center;
+    color:rgb(153, 153, 153);
+    margin-left: calc(10%);
+    margin-right: calc(10%);
+}
+
+#course_description2{
+    text-align: center;
+    color:rgb(153, 153, 153);
+    margin-left: calc(10%);
+    margin-right: calc(10%);
+}
+
+#course_description3{
+    text-align: center;
+    color:rgb(153, 153, 153);
+    margin-left: calc(12%);
+    margin-right: calc(12%);
+}
+
+#course_description4{
+    text-align: center;
+    color:rgb(153, 153, 153);
+    margin-left: calc(15%);
+    margin-right: calc(15%);
+}
+
+.lecture_column{
+    position: relative;
+    float: left;
+    background-color:white;
+    width: calc(240px);
+    bottom: calc(232%);
+    left: calc(16%);
+    margin-right: 93px;
+    opacity: 0.85;
+    border-radius: 5px; 
+    transition: transform .2s; 
+}
+
+.lecture_column:hover{
+    transform: scale(1.5);
+}
+
+
+#related_books_background{
+    position: absolute;
+    background-image: linear-gradient(to bottom, black, blue);
+    height: calc(100%);
+    width: calc(99.2%);
+    top: calc(155%);
+}
+
+#page_title{
+    position: relative;
+    text-align: center;
+    color: white;
+    width:20%;
+    left:750px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all .2s ease-in-out;
+}
+
+#page_title.shrink{
+    transition: all .2s ease-in-out;
+}
+
+#page_title:hover{
+    transform: scale(0.9);
+}
+
+#javascriptIntro{
+    background-color: rgb(45, 224, 255);
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    left: calc(55%);
+    bottom: calc(70%);
+    width: calc(35%);
+    text-align: center;
+    color: white;
+    opacity: 1;
+}
+
+#guide{
+    background-color: rgb(45, 224, 255);
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    left: calc(65%);
+    bottom: calc(62%);
+    width: calc(30%);
+    text-align:center;
+    color: white;
+    opacity: 0.9;
+}
+
+#author{
+    position: relative;
+    text-align: center;
+    color: grey ;
+    top: calc(10%);
+}
+
+#edition{
+    position: relative;
+    text-align: center;
+    color: grey;
+    top: calc(15%);
+}
+
+#published_year{
+    position: relative;
+    text-align: center;
+    color: grey;
+    top: calc(20%);
+}
+
+
+#javascript_book{
+    width: calc(99.2%);
+    height: calc(40%);
+}
+
+
+
+#react_book{
+    width: calc(99.4%);
+    height: calc(40%);
+}
+
+
+#go_book{
+    width: calc(99%); 
+    height: calc(42%);
+}
+
+
+
+#reactIntro{
+    background-color: rgb(45, 59, 255);
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    left: calc(50%);
+    bottom: calc(70%);
+    width: calc(40%);
+    text-align: center;
+    color: white;
+    opacity: 0.9;
+}
+
+#react_guide{
+    background-color: rgb(45, 59, 255);
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    left: calc(47%);
+    bottom: calc(65%);
+    width: calc(50%);
+    text-align:center;
+    color: white;
+    opacity: 1;
+}
+
+#golangIntro{
+    background-color: black;
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    left: calc(40%);
+    bottom: calc(70%);
+    width: calc(50%);
+    text-align: center;
+    color: white;
+    opacity: 0.8;
+}
+
+#go_guide{
+    background-color: black;
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    left: calc(60%);
+    bottom: calc(65%);
+    width: calc(35%);
+    text-align:center;
+    color: white;
+    opacity: 1;
+}
+
+
+/* .relatedBooks_column{
+    float: left;
+    background-color: white;
+    width: calc(20%);
+    height: calc(80%);
+    margin-right: 93px;
+    margin-left: calc(7.5%);
+    margin-top: calc(5%);
+ 
+} */
+
+#footer_background{
+    position: relative;
+    background-color:rgb(34, 32, 32);
+    bottom:calc(1099px);
+    height: calc(200px);
+    width: calc(100.05%);
+}
+.footer_column{
+    float: left;
+    background-color: rgb(34, 32, 32);
+    width: calc(838px);
+    margin-right: 93px;
+    margin-top: calc(67px);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+#class_info{
+    position: absolute;
+    margin-left: calc(10%);
+    transition: transform .2s;
+}
+#class_info:hover{
+    transform: scale(1.2);
+}
+
+#contact_us{
+    position:absolute;
+    margin-left: calc(15%);
+    top: calc(34%);
+    transition: transform .2s;
+}
+#contact_us:hover{
+    transform: scale(1.2);
+}
+
+#privacy_policy{
+    position:absolute;
+    margin-left: calc(20.5%);
+    top: calc(34%);
+    transition: transform .2s;
+}
+#privacy_policy:hover{
+    transform: scale(1.2);
+}
+
+#terms{
+    position:absolute;
+    margin-left: calc(27%);
+    top: calc(34%);
+    transition: transform .2s;
+}
+#terms:hover{
+    transform: scale(1.2);
+}
+
+.flip-card {
+    position: absolute;
+    background-color: transparent;
+    width: calc(17%);
+    height: calc(60%);
+    left: calc(150px);
+    top: calc(150px);
+    perspective: calc(1000px);
+}
+  
+.flip-card-inner {
+    position: absolute;
+    width: calc(99%);
+    height: calc(100%);
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+  
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: calc(100%);
+    height: calc(100%);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  
+.flip-card-front {
+    background-color: white;
+    color: black;
+}
+  
+.flip-card-back {
+    background-image: linear-gradient(to bottom right, black, white);
+    color: white;
+    transform: rotateY(180deg);
+}
+
+#price{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top:calc(200px);
+    font-size: 20px;
+}
+
+button{
+    margin-top: calc(25px);
+}
+
+.flip-card1 {
+    position: absolute;
+    background-color: transparent;
+    width: calc(18%);
+    height: calc(60%);
+    left: calc(775px);
+    top: calc(150px);
+    perspective: calc(1000px);
+}
+  
+.flip-card-inner1 {
+    position: absolute;
+    width: calc(99%);
+    height: calc(100%);
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card1:hover .flip-card-inner1 {
+    transform: rotateY(180deg);
+}
+  
+.flip-card-front1, .flip-card-back1 {
+    position: absolute;
+    width: calc(100%);
+    height: calc(100%);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    
+}
+  
+.flip-card-front1 {
+    background-color: white;
+    color: black;
+}
+  
+.flip-card-back1 {
+    background-image: linear-gradient(to bottom right, black, white);
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.flip-card2 {
+    position: absolute;
+    background-color: transparent;
+    width: calc(16%);
+    height: calc(60%);
+    left: calc(1420px);
+    top: calc(150px);
+    perspective: calc(1000px);
+}
+  
+.flip-card-inner2 {
+    position: absolute;
+    width: calc(100%);
+    height: calc(100%);
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card2:hover .flip-card-inner2 {
+    transform: rotateY(180deg);
+}
+  
+.flip-card-front2, .flip-card-back2 {
+    position: absolute;
+    width: calc(100%);
+    height: calc(100%);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    
+}
+  
+.flip-card-front2 {
+    background-color: white;
+    color: black;
+}
+  
+.flip-card-back2 {
+    background-image: linear-gradient(to bottom right, black, white);
+    color: white;
+    transform: rotateY(180deg);
+}
